@@ -10,4 +10,16 @@ In this project 7 classifiers were implemented (Decision Tree Classifier, Random
 Accuracy on the test data is about 76%.
 
 # How to start?
-To run this code, open Jupyter Notebook. If you are using desktop application (for example Anaconda), download *best_classifier.pkl* and *tokenizer.pkl* files. If you are using Jupyter Notebook in cloud (for example Google Colab), upload these files to your workspace. Then, change the paths in *Constants* section and have fun with experimenting :)
+To run this code, open Jupyter Notebook. If you are using desktop application (for example Anaconda), download *best_classifier.pkl* and *tokenizer.pkl* files. If you are using Jupyter Notebook in cloud (for example Google Colab), upload these files to your workspace. Then, change the paths in *Constants* section.
+
+Run code in following sections:
+- Imports
+- Constants
+- Mounting with Google Drive
+- Loading classifier
+- Loading tokenizer
+- Predicting.
+
+To predict if message is toxic or not, change the parameter in last cell, i.e. replace text: *"I love you <3"* to any message you want in cell  with code: *predict("I love you <3")*
+
+Have fun with experimenting :)
