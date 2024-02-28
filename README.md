@@ -16,6 +16,7 @@ Run code in following sections:
 - Imports
 - Constants
 - Mounting with Google Drive
+- in section *Preparing the data* run cells with functions: *clean_message*, *remove_punctuations_and_digits*, *remove_stop_words* and *lemmatize* (it means run every cell in this section except last one with tokenizer)
 - Loading classifier
 - Loading tokenizer
 - Predicting.
